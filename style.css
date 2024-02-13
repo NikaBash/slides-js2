@@ -1,0 +1,35 @@
+body {
+    background-color: #BA94D1 ;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+#pictures {
+    width: 500px;
+    border-radius: 10px;
+}
+.btn {
+    background-color: #DEBACE;
+    border: none;
+    color: #232323;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 30px;
+    border-radius: 10px;
+}
+@media all and (max-width: 800px) {
+    #pictures {
+        width: 400px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 500px) {
+    #pictures {
+        width: 300px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+}
